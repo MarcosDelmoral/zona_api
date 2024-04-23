@@ -1,14 +1,14 @@
-import { Column, PrimaryGeneratedColumn } from "typeorm";
+import { Column, PrimaryGeneratedColumn } from 'typeorm';
 
 export class User {
-    @PrimaryGeneratedColumn()
-    ID: Number;
-    @Column()
-    user: String;
-    @Column()
-    pass: String;
-    @Column()
-    name: String;
-    @Column()
-    role_id: Number;
+  @PrimaryGeneratedColumn()
+  ID: number;
+  @Column()
+  user: string;
+  @Column()
+  pass: string;
+  @Column()
+  name: string;
+  @Column()
+  role_id: number;
 }
